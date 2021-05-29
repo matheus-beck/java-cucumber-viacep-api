@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="1" name="prova_sicredi_api.RunCucumberTest" time="5.375" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9.1+12-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.9_12\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\w503340\Documents\prova_sicredi_api"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\w503340\Documents\prova_sicredi_api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.9.1+12-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\w503340\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.9_12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Ruby27-x64\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Amazon Corretto\jdk11.0.9_12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\w503340\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocoportable\bin;C:\Users\w503340\AppData\Local\Programs\Git\cmd;C:\Program Files\Amazon Corretto\jdk11.0.9_12\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;;C:\Users\w503340\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\w503340"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="W503340"/>
+    <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.9_12"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9.1"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-11-04"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-11.0.9.12.1"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check valid zip code (CEP) #1" time="1.252"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check valid zip code (CEP) #2" time="0.169"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check nonexistent zip code (CEP) #1" time="0.148"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check nonexistent zip code (CEP) #2" time="0.152"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #1" time="0.152"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #2" time="0.577"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #3" time="0.515"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #4" time="0.497"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #5" time="0.542"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) with invalid format #6" time="0.512"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) given address #1" time="0.534">
+    <failure message="Expected city: Gravatai. Received: GravataÃ­" type="java.lang.AssertionError">java.lang.AssertionError: Expected city: Gravatai. Received: GravataÃ­
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at prova_sicredi_api.StepDefinitions.aListOfZipCodesThatMatchesTheParametersAreReturned(StepDefinitions.java:105)
+	at ✽.a list of zip codes that matches the parameters are returned(classpath:prova_sicredi_api/viacep.feature:37)
+</failure>
+    <system-out>
+Scenario Outline: Check zip code (CEP) given address                                          &amp;#27;[90m# prova_sicredi_api/viacep.feature:40&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user insert the UF as &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mRS&amp;#27;[0m&amp;#27;[32m, the city as &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mGravatai&amp;#27;[0m&amp;#27;[32m, and the street address as &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mBarroso&amp;#27;[0m &amp;#27;[90m# prova_sicredi_api.StepDefinitions.theUserInsertTheUFAsRSTheCityAsGravataiAndTheStreetAddressAsBarroso(java.lang.String,java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe service is consulted using the &amp;#27;[0m&amp;#27;[32m&amp;#27;[1maddress&amp;#27;[0m                                             &amp;#27;[90m# prova_sicredi_api.StepDefinitions.theServiceIsConsultedUsingTheX(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31ma list of zip codes that matches the parameters are returned&amp;#27;[0m                           &amp;#27;[90m# prova_sicredi_api.StepDefinitions.aListOfZipCodesThatMatchesTheParametersAreReturned()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Expected city: Gravatai. Received: GravataÃƒÂ­
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at prova_sicredi_api.StepDefinitions.aListOfZipCodesThatMatchesTheParametersAreReturned(StepDefinitions.java:105)
+	at âœ½.a list of zip codes that matches the parameters are returned(classpath:prova_sicredi_api/viacep.feature:37)
+&amp;#27;[0m
+</system-out>
+    <system-err>May 29, 2021 1:36:55 AM prova_sicredi_api.StepDefinitions theServiceIsConsultedUsingTheX
+INFO: Consulting zip code using address https://viacep.com.br/ws/RS/Gravatai/Barroso/json/
+May 29, 2021 1:36:55 AM prova_sicredi_api.StepDefinitions theServiceIsConsultedUsingTheX
+INFO: API response: 
+[  {    &quot;cep&quot;: &quot;94085-170&quot;,    &quot;logradouro&quot;: &quot;Rua Ari Barroso&quot;,    &quot;complemento&quot;: &quot;&quot;,    &quot;bairro&quot;: &quot;Morada do Vale I&quot;,    &quot;localidade&quot;: &quot;GravataÃ­&quot;,    &quot;uf&quot;: &quot;RS&quot;,    &quot;ibge&quot;: &quot;4309209&quot;,    &quot;gia&quot;: &quot;&quot;,    &quot;ddd&quot;: &quot;51&quot;,    &quot;siafi&quot;: &quot;8683&quot;  },  {    &quot;cep&quot;: &quot;94175-000&quot;,    &quot;logradouro&quot;: &quot;Rua Almirante Barroso&quot;,    &quot;complemento&quot;: &quot;&quot;,    &quot;bairro&quot;: &quot;Recanto Corcunda&quot;,    &quot;localidade&quot;: &quot;GravataÃ­&quot;,    &quot;uf&quot;: &quot;RS&quot;,    &quot;ibge&quot;: &quot;4309209&quot;,    &quot;gia&quot;: &quot;&quot;,    &quot;ddd&quot;: &quot;51&quot;,    &quot;siafi&quot;: &quot;8683&quot;  }]
+</system-err>
+  </testcase>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) given address #2" time="0.18"/>
+  <testcase classname="The &quot;Via CEP&quot; API should work as expected" name="Check zip code (CEP) given address #3" time="0.145"/>
+</testsuite>

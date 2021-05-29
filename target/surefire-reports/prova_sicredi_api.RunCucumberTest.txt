@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: prova_sicredi_api.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.349 sec <<< FAILURE!
+Check zip code (CEP) given address #1(The "Via CEP" API should work as expected)  Time elapsed: 0.534 sec  <<< FAILURE!
+java.lang.AssertionError: Expected city: Gravatai. Received: Gravataí
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at prova_sicredi_api.StepDefinitions.aListOfZipCodesThatMatchesTheParametersAreReturned(StepDefinitions.java:105)
+	at ?.a list of zip codes that matches the parameters are returned(classpath:prova_sicredi_api/viacep.feature:37)
+
