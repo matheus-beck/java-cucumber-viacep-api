@@ -1,7 +1,7 @@
 # 👨‍💻 QA Java and Cucumber Via CEP API Challenge
 
 <div align="center">
-  <img alt="ibm logo" width="15%" src="https://viacep.com.br/estatico/images/viacep.png.pagespeed.ce.I80LiA6qpr.png">
+  <img alt="ibm logo" width="35%" src="viacep-cover.png">
 </div>
 <br>
 
