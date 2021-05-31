@@ -12,7 +12,7 @@ The features of the tests are inside `src/test/resources/viacep/viacep.feature` 
 ## 📅 Test execution report
 ![Cucumber report](cucumber_report.png)
 - [Link to test execution report HTML](Test_Results_Feature_viacep.html)
-- [Link to test execution report PDF](Test_Results_Feature_viacep.pdf)
+- [Link to test execution report PDF](Test_Results_Feature_%20viacep.pdf)
 
 ## 💾 Development Dependencies Used
 
