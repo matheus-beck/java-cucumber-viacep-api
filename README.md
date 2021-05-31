@@ -1,4 +1,4 @@
-# 👨‍💻 QA Java and Cucumber Via CEP API Challenge
+# 👨‍💻 QA Java and Cucumber Via CEP API Test Automation
 
 <div align="center">
   <img alt="ibm logo" width="35%" src="viacep-cover.png">
