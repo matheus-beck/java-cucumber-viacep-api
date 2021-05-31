@@ -1,4 +1,4 @@
-package prova_sicredi_api;
+package viacep;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

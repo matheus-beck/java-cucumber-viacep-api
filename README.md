@@ -1,13 +1,13 @@
 # 👨‍💻 QA Java and Cucumber Via CEP API Challenge
 
-<p align="center">
-  <img alt="ibm logo" width="15%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1000px-IBM_logo.svg.png">
-</p>
+<div align="center">
+  <img alt="ibm logo" width="15%" src="https://viacep.com.br/estatico/images/viacep.png.pagespeed.ce.I80LiA6qpr.png">
+</div>
+<br>
 
+Test Automation of the [Via CEP API](https://viacep.com.br/) using Java and Cucumber.
 
-Test Automation of the Via CEP API using Java and Cucumber for the tech QA challenge from [IBM](https://www.ibm.com/). 
-
-The features of the tests are inside `src/test/resources/prova_sicredi_api/viacep.feature` and the step definitions are inside `src/test/java/prova_sicredi_api/StepDefinitions.java`
+The features of the tests are inside `src/test/resources/viacep/viacep.feature` and the step definitions are inside `src/test/java/viacep/StepDefinitions.java`
 
 ## 📅 Test execution report
 ![Cucumber report](cucumber_report.png)
