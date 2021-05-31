@@ -26,7 +26,7 @@ The features of the tests are inside `src/test/resources/viacep/viacep.feature` 
 1. Clone the project into your machine, install all dependencies described above and compile the project using:
 
 ```console
-mvn install
+mvn compile
 ```
 
 2. Now, to run the tests:
